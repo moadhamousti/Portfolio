@@ -6,7 +6,6 @@
 
 
 /* GLOBAL */
-
 :root {
   --backg-body: hsl(0, 0%, 8%);
   --backg-body2: hsl(0, 0%, 14%);
@@ -25,6 +24,7 @@
   --container: 1110px;
   --transition: 250ms ease-in-out;
 }
+
 
 html,
 body {
@@ -93,12 +93,6 @@ a {
   transition: color var(--transition);
 }
 
-/* a:focus-visible,
-input:focus-visible,
-textarea:focus-visible {
-  outline: 2px dashed var(--accent);
-  outline-offset: 2px;
-} */
 
 
 a.underline,
@@ -747,7 +741,6 @@ h1 > span {
 
 
 
-
 .contact__rings {
   position: absolute;
   left: 0;
@@ -818,3 +811,9 @@ footer {
     padding-block: 47px 92px;
   }
 }
+
+
+
+
+
+
