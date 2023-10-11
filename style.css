@@ -13,16 +13,16 @@
   --accent: hsl(153, 71%, 59%);
   --text1: hsl(0, 0%, 100%);
   --text2: hsl(0, 0%, 85%);
-  --fs-18: 1.125rem;
-  --fs-88: 5.5rem;
-  --fs-72: 4.5rem;
-  --fs-40: 2.5rem;
-  --fs-48: 3rem;
-  --fs-36: 2.25rem;
-  --fs-32: 2rem;
-  --fs-24: 1.5rem;
-  --fs-20: 1.25rem;
-  --container: 69.375rem;
+  --fs-18: 18px;
+  --fs-88: 88px;
+  --fs-72: 72px;
+  --fs-40: 40px;
+  --fs-48: 48px;
+  --fs-36: 36px;
+  --fs-32: 32px;
+  --fs-24: 24px;
+  --fs-20: 20px;
+  --container: 1110px;
   --transition: 250ms ease-in-out;
 }
 
