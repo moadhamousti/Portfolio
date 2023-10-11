@@ -13,7 +13,6 @@
   --accent: hsl(153, 71%, 59%);
   --text1: hsl(0, 0%, 100%);
   --text2: hsl(0, 0%, 85%);
-  --invalid: hsl(7, 100%, 68%);
   --fs-18: 1.125rem;
   --fs-88: 5.5rem;
   --fs-72: 4.5rem;
@@ -101,10 +100,6 @@ textarea:focus-visible {
   outline-offset: 2px;
 }
 
-input:invalid,
-textarea:invalid {
-  outline-color: var(--invalid);
-}
 
 a.underline,
 button {
@@ -750,26 +745,8 @@ h1 > span {
   border: none;
 }
 
-.contact__invalid-icon {
-  display: none;
-  width: var(--fs-24);
-  height: var(--fs-24);
-  position: absolute;
-  top: 50%;
-  right: 0;
-  translate: -50% -50%;
-}
 
-.contact input:focus-visible:invalid ~ .contact__invalid-icon,
-.contact textarea:focus-visible:invalid ~ .contact__invalid-icon {
-  display: inline-block;
-}
 
-.contact textarea:focus-visible:invalid ~ .contact__invalid-icon {
-  top: 1.2rem;
-  right: 1.5rem;
-  translate: none;
-}
 
 .contact__rings {
   position: absolute;
